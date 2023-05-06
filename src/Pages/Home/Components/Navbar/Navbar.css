@@ -1,0 +1,36 @@
+.navbar{
+    backdrop-filter: blur(2px);
+    --bs-navbar-padding-y: 1rem;
+}
+.navbar-brand img{
+    width: 75%;
+}
+.navbar-nav .show > .nav-link, .navbar-nav .nav-link.active{
+    color :#FFFFFF;
+    font-weight: 700;
+}
+.nav-link{
+    color: #C1C1C1;
+}
+.navbar-nav {
+    --bs-nav-link-hover-color: #FFFFFF;
+}
+.form-control{
+background: #363C42;
+border-radius: 16px;
+border: #363C42;
+width: 85%;
+}
+.btn{
+    --bs-btn-border-color: var(--white-color);
+    color: var(--white-color);
+    font-weight: 600;
+}
+ .btn-nav {
+ --bs-btn-padding-x: 1.75rem;
+ }
+ .btn:hover{
+    border: 1px solid var(--orange-color);
+    color: var(--white-color);
+
+ }

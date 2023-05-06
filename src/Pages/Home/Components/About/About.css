@@ -1,0 +1,88 @@
+:root{
+    --white-color:#FFFFFF;
+    --orange-color: #FF7900;
+    --black-color:  #22272B;
+    --blackTwo-color:#373E43 ;
+    --scandery-color:#638682;
+    --scanderyTwo-color:#EBEBEB;
+}
+.bg-about{
+    background-image: url('../../../../Shared/Assests/Images/about-us.jpg');
+    height: 800px  ;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.img-about{
+    margin-top: 10.5rem;
+    margin-left: 3rem;
+}
+.title h2{
+    margin-top: 10rem;
+    color: var(--white-color);
+    width: 89%;
+    line-height: 3.5rem;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.desc-about {
+    width: 68%;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    color: var(--gray-color) ;
+}
+.img-size{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+.about-section{
+    background-color: var(--blackTwo-color);
+    height: 800px;
+}
+.upcoming-title{
+    padding-top: 5rem;
+}
+.upcoming-title h6{
+    color: var(--orange-color);
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+.upcoming-title h4{
+    color: var(--white-color);
+    font-weight: 700;
+    line-height: 4rem;
+    font-size: 2.5rem;
+}
+.upcoming{
+    background-color: var( --scandery-color);
+    width:24rem ;
+    height:26.3rem ;
+    box-shadow: 0px 0px 50px rgba(6, 6, 6, 0.3);
+    border-radius: 1rem;
+    margin-top: 5rem;
+    text-align: center;
+    /* transition: 1s all; */
+}
+.upcoming img{
+    width:12.5rem ;
+    height:12.5rem ;
+    margin-top: 2.6rem;
+}
+.upcoming h6{
+ color: var(--white-color);
+ font-size: 1.25rem;
+ line-height: 2rem;
+ font-weight: 500;
+ margin-top: 2rem;
+ margin-bottom: 1rem;
+}
+.upcoming p{
+    color: var( --scanderyTwo-color);
+    font-size: .8rem;
+    line-height: 1.5rem;
+    padding: 0 2.9rem;
+}
+/* .upcoming:hover{
+    transform:scale(1.111111 ,1.1111111);
+} */

@@ -1,0 +1,40 @@
+:root{
+    --white-color:#FFFFFF;
+    --orange-color: #FF7900;
+    --black-color:  #22272B;
+    --blackTwo-color:#373E43 ;
+    --blackThree-color:#263238;
+    --blackFour-color:#4F555A;
+    --scandery-color:#638682;
+    --scanderyTwo-color:#EBEBEB;
+    --grayTwo-color:#D9D9D9;
+}
+.services-section{
+    background-color: var(--blackTwo-color);
+    height: 800px;
+}
+.services-desc{
+    background-color: var(--grayTwo-color);
+    width: 43.6rem;
+    height: 44.25rem;
+    border-radius:1.5rem;
+    padding-top: 2.8rem;
+    margin-left: 7.5rem;
+}
+.services-desc h2{
+    color: var(--blackThree-color);
+    font-size: 2rem;
+    line-height: 2.8rem;
+    font-weight: 700;
+    padding-left: 2.9rem;
+    padding-top: 4rem;
+    padding-right: 4rem;
+    width: 90%;
+}
+.services-desc p{
+    color: var( --blackFour-color);
+    line-height: 1.5rem;
+    font-size: 1.12rem;
+    padding-left: 2.875rem;
+    width: 32rem;
+}

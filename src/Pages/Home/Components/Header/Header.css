@@ -1,0 +1,44 @@
+:root{
+    --white-color:#FFFFFF;
+    --orange-color: #FF7900;
+    --black-color:  #22272B;
+    --gray-color: #C1C1C1;
+}
+.bg{
+    background-image: url("../../../../Shared/Assests/Images/Header\ section.jpg") ;
+    height: 800px  ;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.aboutUs-contant h1{
+    font-size: 2.7rem;
+    color:var(--white-color) ;
+    font-weight: 700;
+    margin-top: 250px;
+}
+.p-about {
+    color: var(--gray-color) ;
+    font-size: 1.2rem;
+    width: 67%;
+}
+ .About-image{
+    margin-top: 14rem;
+ }
+ .btn-bg{
+    background-color: var(--orange-color);
+    border: var(--orange-color);
+ }
+ .btn-lg, .btn-group-lg > .btn {
+    --bs-btn-padding-x: 4rem;
+ }
+ .btn-about{
+    border-radius: 24px;
+    font-weight: 600;
+    color: var( --black-color) ;
+
+ }
+ .btn-about:hover{
+    border: 1px solid var(--orange-color);
+    color: #FFFFFF;
+ }

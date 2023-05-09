@@ -1,0 +1,11 @@
+.navbar{
+    backdrop-filter: blur(2px);
+    --bs-navbar-padding-y: 1rem;
+    background-color: #22272b80;
+}
+.navbar-brand img{
+    width: 75%;
+}
+.land-btn{
+    margin-left: 43rem;
+}

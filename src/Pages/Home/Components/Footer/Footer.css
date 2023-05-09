@@ -1,0 +1,65 @@
+:root{
+    --white-color:#FFFFFF;
+    --lightgray-color:#424649;
+}
+.footer-bg{
+    background-image: url('../../../../Shared/Assests/Images/Footer\ \(1\).jpg');
+    height: 547px  ;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.footer-logo{
+    max-width: 185px;
+    min-height: 47px;
+    margin-top: 5.5rem;
+}
+.footer-desc{
+    color:var(--white-color) ;
+    font-size: .875rem;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    padding-right: 5.75rem;
+}
+.footer-title{
+    color:var(--white-color) ;
+    font-size: .875rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    margin-top: 2.5rem;
+}
+.footer-icon{
+    max-width: 30px;
+    min-height: 30px;
+    margin-right: 13px;
+}
+.footer-list{
+    color: var(--white-color);
+    margin-top: 9.437rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+.navbar-nav {
+    --bs-nav-link-padding-y: 0;
+}
+.store{
+    max-width:150px ;
+    min-height:46px ;
+}
+.line{
+   background-color: var(--lightgray-color);
+   height: 2px;
+   width: 100%;
+   margin-top: 2.5rem;
+}
+.copy-right{
+    color: var(--white-color);
+    font-size: .75rem;
+    line-height: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.all-rights{
+    margin-left: 41.5rem;
+}

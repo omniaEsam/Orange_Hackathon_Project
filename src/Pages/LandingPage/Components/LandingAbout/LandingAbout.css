@@ -1,0 +1,23 @@
+:root{
+    --blackTwo-color:#373E43 ; 
+    --white-color:#FFFFFF;
+    --gray-color: #C1C1C1;
+}
+.landing-about{
+    background-color: var(--blackTwo-color);
+    min-height: 800px;
+}
+.landing-about-title h2{
+    margin-top: 12rem;
+    color: var(--white-color);
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height:3.5rem;
+}
+.list{
+    color: var(--gray-color);
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    padding-right: 8.7rem;
+    padding-bottom: 1.5rem;
+}

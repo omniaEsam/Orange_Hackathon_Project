@@ -1,0 +1,58 @@
+:root{
+    --white-color:#FFFFFF;
+    --orange-color: #FF7900;
+    --light-blue:#4A6562;
+    --white-smoke:#EBEBEB;
+    --graylight-color:#ABC3C0;
+}
+.aboutus-bg{
+    background-color: var(--blackTwo-color);
+    min-height: 800px;
+}
+.aboutus-title h6{
+    color:var(--orange-color);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+.aboutus-title h2{
+    color:var(--white-color);
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 4rem;
+}
+.aboutus-card{
+    background-color: var(--light-blue);
+    border-radius: 1rem;
+    margin-right: 1rem;
+}
+.icon-contant img{
+    max-width: 4.05rem;
+    min-height: 3.75rem;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+.icon-contant h5{
+    color: var(--white-color);
+    margin-top: 1.5rem;
+    margin-left: 2.423rem;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+.landing-abouts-desc {
+    color: var(--white-smoke);
+    font-size: .875rem;
+    line-height: 1.5rem;
+    padding: 0 6rem 2rem 8rem;
+    max-width: 30.375rem;
+}
+.learn-more{
+    color: var(--graylight-color);
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    margin-top: 2.5rem;
+    padding: 0 19rem;
+    font-weight: 600;
+}
+ 

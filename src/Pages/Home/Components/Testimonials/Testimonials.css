@@ -1,0 +1,16 @@
+.Testimonials-bg{
+    background-image: url('../../../../Shared/Assests/Images/Testimonials.jpg');
+    height: 1178px  ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.Testimonials-bg h2{
+    color: var(--white-color);
+    padding-top: 120px;
+    padding-left: 155px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    width: 62%;
+}

@@ -1,0 +1,36 @@
+
+.landing-feature-bg{
+    background-color: var(--blackTwo-color);
+    min-height: 2000px;
+    position: relative;
+}
+.landing-feature-title{
+    color: var(--white-color);
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 4rem;
+    padding-top: 2rem;
+}
+.feature-line{
+    background-color: var(--orange-color);
+    width: 6%;
+    height: 3px;
+    margin-left: 36rem;
+}
+.feature-item1 img{
+    min-height: 800px;
+    max-width: 1000px;
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+.feature-item2 img{
+    min-height: 800px;
+    max-width: 1000px;
+    margin-left: 10rem;
+}
+.feature-item3 img{
+    min-height: 800px;
+    max-width: 440px;
+    margin-left: 10rem;
+}

@@ -6,6 +6,7 @@
     --blackThree-color:#263238;
     --blackFour-color:#4F555A;
     --scandery-color:#638682;
+    --grayThree-color:#DCDCDC;
     --scanderyTwo-color:#EBEBEB;
     --grayTwo-color:#D9D9D9;
 }
@@ -14,6 +15,7 @@
     height: 800px;
 }
 .services-desc{
+    position: relative;
     background-color: var(--grayTwo-color);
     width: 43.6rem;
     height: 44.25rem;
@@ -37,4 +39,56 @@
     font-size: 1.12rem;
     padding-left: 2.875rem;
     width: 32rem;
+}
+.carousel {
+    position: absolute;
+    width: 70.37rem;
+    left: 170px ;
+    top: 2775px;
+}
+.slider{
+    background: var(--scandery-color);
+    max-width: 317px;
+    min-height: 278px;
+    box-shadow: 0px 0px 50px 0px rgba(6, 6, 6, 0.3);
+    border-radius:1.5rem;
+}
+.slider-icon img{
+    width: 3rem;
+    margin-top: 2.87rem;
+    margin-left: 2rem;
+}
+.slider-icon h5{
+    font-size: 1.25rem;
+    line-height: 2rem;
+    margin-top: 3.375rem;
+    margin-left: 0.5rem;
+}
+.slider-desc{
+    color: var(--grayThree-color);
+    line-height: 1.5rem;
+    color: var(--grayThree-color);
+    line-height: 1.5rem;
+    padding-left: 2rem;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+    padding-right: 2.9rem;
+}
+.carousel-control-prev, .carousel-control-next {
+    opacity: 1;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: var(--orange-color);
+    border-radius: 50%;
+    padding: 1.3rem;
+    background-size: 20px;
+}
+.carousel-control-prev {
+    left: -85px;
+}
+.carousel-control-next {
+    right: -15px;
+}
+.carousel-inner {
+    left: 42px;
 }

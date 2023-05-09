@@ -7,18 +7,18 @@ export default function Navbar() {
   const [NavBg , setNavbg] = useState('#22272b80');
   const Location = useLocation();
   useEffect(()=>{
-    if(Location.pathname === "/"){
+    if(Location.pathname === "/home"){
       setNavbg('#22272b80');
     }
     else{
       setNavbg('#22272b');
     }
-  })
+  } ,[Location.pathname])
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary" style={{backgroundColor : NavBg}}>
   <div className="container">
-    <Link className="navbar-brand" to="/">
+    <Link className="navbar-brand" to="/home">
       <img src= {Logo} alt='logo' />
     </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +27,7 @@ export default function Navbar() {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <NavLink className="nav-link " aria-current="page" exact to="/" activeClassName="active">Home</NavLink>
+          <NavLink className="nav-link " aria-current="page" exact to="/home" activeClassName="active">Home</NavLink>
         </li>
         <li className="nav-item">
           <NavLink className="nav-link" exact to="/AboutUs" activeClassName="active">About Us</NavLink>

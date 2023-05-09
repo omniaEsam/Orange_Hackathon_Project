@@ -1,0 +1,27 @@
+:root{
+    --white-color:#FFFFFF;
+    --orange-color: #FF7900;
+    --black-color:  #22272B;
+    --gray-color: #C1C1C1;
+}
+.landing-bg{
+    background-image: url("../../../../Shared/Assests/Images/Header\ section.jpg") ;
+    height: 800px  ;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.landing-header-contant h1{
+    font-size: 2.625rem;
+    color: var(--white-color);
+    padding: 0 16rem;
+    margin-top: 18.1875rem;
+    line-height: 3.5rem;
+    font-weight: 700;
+}
+.landing-header-contant p{
+    color: var(--gray-color);
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    padding: 1rem 24rem 0 24rem;
+}

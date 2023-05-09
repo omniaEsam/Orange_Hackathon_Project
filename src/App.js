@@ -1,17 +1,16 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./Pages/Home/Home";
-import AboutUs from './Pages/AboutUs/AboutUs';
-
+import LandingPage from './Pages/LandingPage/LandingPage';
+import Home from './Pages/Home/Home'
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-        <Route path="/" element={ <Home/> } />
-        <Route path="/AboutUs" element={ <AboutUs/> } />
+        <Route path="/" element={ <LandingPage/> } />
+        <Route path="/home" element={ <Home/> } />
         </Routes>
        </BrowserRouter>
     </div>
